@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클래스 — Circle Workshop 玄圓坊</title>
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600&family=Noto+Serif+KR:wght@400;500;600&family=Noto+Sans+KR:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  body{ font-family:'Noto Sans KR', var(--sans); }
+  .hero-headline, .section-title, .cta-title, .page-hero h1, .process-copy h3,
+  .service-card h3, .sd-name, .founder-name, .value-item h3, .curriculum-item h3,
+  .contact-title, .lang-badge{ font-family:'Noto Serif KR', var(--serif-cn); }
+</style>
+</head>
+<body>
+
+<header id="siteHeader">
+  <nav class="wrap">
+    <a href="index-ko.html" class="brand-mark">
+      <img src="images/logo.png" alt="Circle Workshop">
+      <span class="brand-text">
+        <span class="brand-cn">玄圓坊</span>
+        <span class="brand-en">Circle Workshop</span>
+      </span>
+    </a>
+    <div class="nav-right">
+      <div class="nav-links" id="navLinks">
+        <a href="index-ko.html">홈</a>
+        <a href="about-ko.html">회사 소개</a>
+        <a href="services-ko.html">서비스</a>
+        <a href="courses-ko.html" class="active">클래스</a>
+        <a href="contact-ko.html">문의하기</a>
+      </div>
+      <div class="lang-switch-group">
+        <a href="courses.html" class="lang-opt">中</a>
+        <a href="courses-en.html" class="lang-opt">EN</a>
+        <a href="courses-ko.html" class="lang-opt active">한국어</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="page-hero-decor" aria-hidden="true">
+      <svg viewBox="0 0 400 400" fill="none">
+        <circle class="orbit-ring" cx="200" cy="200" r="180"/>
+        <circle class="orbit-ring gold arc-draw" cx="200" cy="200" r="140"/>
+        <circle class="orbit-ring" cx="200" cy="200" r="95"/>
+        <g class="orbit-spin-mid" style="transform-origin:200px 200px;">
+          <circle class="orbit-dot" cx="380" cy="200" r="3"/>
+        </g>
+        <g class="orbit-spin-slow" style="transform-origin:200px 200px;">
+          <circle class="orbit-dot" cx="200" cy="60" r="2.5"/>
+        </g>
+        <g class="orbit-spin-fast" style="transform-origin:200px 200px;">
+          <circle class="orbit-dot" cx="200" cy="105" r="2" opacity="0.7"/>
+        </g>
+      </svg>
+    </div>
+    <div class="eyebrow">클래스</div>
+    <h1>배움을 잇다, 창립자가 <em style="font-style:normal;color:var(--gold-soft);">직접</em> 가르칩니다.</h1>
+    <div class="cn-sub">教學課程 · Mentorship</div>
+    <p class="lede">창립자가 직접 이끄는 개인 멘토링과 소규모 클래스로, 八字, 奇門遁甲, 風水 등을 체계적으로 배우고 싶은 분들께 적합합니다 — 처음 접하시는 분도, 더 깊이 공부하고 싶은 분도 환영합니다.</p>
+  </div>
+</section>
+
+<section class="philosophy">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">교육 철학</div>
+      <h2 class="section-title">저희가 클래스를 여는 이유.</h2>
+    </div>
+    <div class="philosophy-grid">
+      <div class="reveal">
+        <p>지식 자체는 어렵지 않게 찾을 수 있습니다. 정말 부족한 것은 그 지식을 활용하는 판단력입니다 — 이것이 바로 Circle Workshop이 클래스를 여는 이유입니다. 체계를 몇 번의 속성 수업으로 압축하는 것이 아니라, 학생 스스로 문제를 바라보는 사고방식을 세울 수 있도록 함께합니다.</p>
+        <p>수업 내용은 창립자가 직접 설계하고 가르치며, 저희의 자문 업무에서와 동일한 태도를 따릅니다: 깊이를 먼저, 그다음에 폭을 넓히고, 암기보다 논리적 맥락을 중시합니다. 학생마다 배경과 목표가 다르기 때문에, 저희는 정형화된 대규모 강의가 아닌 개인 멘토링이나 소규모 클래스 형태로만 진행합니다.</p>
+      </div>
+      <div class="reveal quote-block">
+        <p>&ldquo;저는 학생들이 규칙을 그저 외우기만 하는 것을 원하지 않습니다. 그 규칙 뒤에 숨어 있는 사고방식을 배우기를 바랍니다.&rdquo;</p>
+        <div class="quote-attr">창립자, Circle Workshop</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="philosophy" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">수업 형태</div>
+      <h2 class="section-title">맞춤형 지도, 두 가지 형태 중 선택.</h2>
+      <p class="section-intro">처음부터 기초를 다지고 싶으신 분이든, 특정 학문을 깊이 파고들고 싶으신 분이든, 저희는 먼저 짧은 대화를 통해 학생의 배경과 목표를 파악한 뒤, 적합한 형태와 진도를 제안합니다.</p>
+    </div>
+    <div class="value-grid reveal" style="grid-template-columns:1fr 1fr; max-width:820px;">
+      <div class="value-item">
+        <div class="v-num">I.</div>
+        <h3>개인 멘토링</h3>
+        <p>학생의 수준, 목표, 시간에 맞춰 유연하게 진행되는 일대일 심층 지도입니다. 진도는 완전히 개인 맞춤형으로, 체계적이고 깊이 있게 파고들고 싶은 분, 혹은 자신의 八字나 특정 프로젝트의 奇門 분석처럼 특정 주제를 깊이 학습하고 싶은 분께 적합합니다.</p>
+      </div>
+      <div class="value-item">
+        <div class="v-num">II.</div>
+        <h3>소규모 클래스</h3>
+        <p>동료 학생들과 함께 배우며, 수업 중 상호작용과 개별 지도를 균형 있게 경험할 수 있습니다. 교류 속에서 차근차근 기초를 다지고 싶은 분, 그리고 비교적 부담 없는 시작을 원하는 분께 적합합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="courses-curriculum">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">학습 내용</div>
+      <h2 class="section-title">기초부터 응용까지, 단계별로.</h2>
+      <p class="section-intro">수업 내용은 학생의 수준에 따라 단계별로 구성됩니다. 아래는 자주 다루는 학습 주제이며, 실제 진행은 개인 멘토링 또는 소규모 클래스 진도에 맞춰 유연하게 조정됩니다.</p>
+    </div>
+    <div class="curriculum-grid reveal">
+      <div class="curriculum-item">
+        <div class="c-num">01</div>
+        <h3>八字 기초와 명리 분석</h3>
+        <p>天干地支와 오행 상생상극의 기본 논리부터 시작하여, 점차 사주를 해석하는 능력을 쌓고, 명리 분석을 실질적으로 활용 가능한 조언으로 전환하는 방법을 배웁니다.</p>
+      </div>
+      <div class="curriculum-item">
+        <div class="c-num">02</div>
+        <h3>奇門遁甲 입문과 응용</h3>
+        <p>奇門遁甲의 기본 배국과 배치 논리를 소개하고, 실제 사례를 통해 비즈니스 의사결정과 전략 분석 등 현대적 상황에 적용하는 연습을 합니다.</p>
+      </div>
+      <div class="curriculum-item">
+        <div class="c-num">03</div>
+        <h3>風水 평가와 실전 실습</h3>
+        <p>방위, 배치, 환경 에너지를 읽는 기본 원리를 배우고, 실전 또는 사례 실습을 통해 주거 및 상업 공간의 풍수를 평가하는 방법을 익힙니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">사용 언어</div>
+      <h2 class="section-title">네 가지 언어로, 학생 배경에 맞춰 유연하게.</h2>
+      <p class="section-intro" style="color:rgba(242,239,232,0.62);">Circle Workshop의 학생들은 다양한 배경을 가지고 있어, 필요에 따라 廣東語, 中文(普通話), 영어, 또는 한국어로 수업을 진행할 수 있습니다 — 모든 학생이 가장 편안한 언어로 깊이 있게 배울 수 있도록 합니다.</p>
+    </div>
+    <div class="lang-badges reveal">
+      <div class="lang-badge">廣東語</div>
+      <div class="lang-badge">中文（普通話）</div>
+      <div class="lang-badge">English</div>
+      <div class="lang-badge">한국어</div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="wrap" style="text-align:center;">
+    <div class="cta-eyebrow reveal in-view">클래스에 관심이 있으신가요?</div>
+    <h2 class="cta-title reveal in-view" style="font-weight:600;">대화를 시작해요</h2>
+    <p class="cta-sub reveal in-view">고객님의 배경과 배우고 싶은 내용을 알려주시면, 적합한 형태를 제안해 드립니다.</p>
+    <div class="cta-buttons reveal in-view">
+      <a class="btn" href="contact-ko.html">문의하기
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-main">
+    <div class="footer-brand">
+      <div class="brand-mark">
+        <img src="images/logo-gold.png" alt="Circle Workshop">
+        <span class="brand-text">
+          <span class="brand-cn">玄圓坊</span>
+          <span class="brand-en">Circle Workshop</span>
+        </span>
+      </div>
+      <p>고전 분석 방법과 현대적 판단력을 결합한 전략 및 형이상학 자문.</p>
+    </div>
+    <div class="footer-col">
+      <h4>둘러보기</h4>
+      <ul>
+        <li><a href="index-ko.html">홈</a></li>
+        <li><a href="about-ko.html">회사 소개</a></li>
+        <li><a href="services-ko.html">서비스</a></li>
+        <li><a href="courses-ko.html">클래스</a></li>
+        <li><a href="contact-ko.html">문의하기</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>연락처</h4>
+      <ul>
+        <li><a href="mailto:consult@circleworkshophk.com">consult@circleworkshophk.com</a></li>
+        <li><a href="https://instagram.com/circle.workshop" target="_blank" rel="noopener">Instagram @circle.workshop</a></li>
+        <li>예약제로 운영됩니다</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <div>&copy; 2026 Circle Workshop 玄圓坊. All rights reserved.</div>
+    <div>비밀 유지는 저희의 기본 원칙입니다.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
